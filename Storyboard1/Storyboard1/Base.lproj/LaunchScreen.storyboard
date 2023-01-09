@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eCc-0i-apG">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="pQ2-nb-4zw">
+            <objects>
+                <viewController id="eCc-0i-apG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vrQ-Sl-70h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOA-GT-myO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="QWl-fK-pGH">
+                                        <rect key="frame" x="108" y="328" width="198" height="80"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="QWl-fK-pGH" firstAttribute="centerY" secondItem="KOA-GT-myO" secondAttribute="centerY" id="gmH-yj-9la"/>
+                                    <constraint firstItem="QWl-fK-pGH" firstAttribute="centerX" secondItem="KOA-GT-myO" secondAttribute="centerX" id="wgK-W0-rDx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bMG-nZ-oTQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KOA-GT-myO" firstAttribute="leading" secondItem="bMG-nZ-oTQ" secondAttribute="leading" id="Abb-9G-xUA"/>
+                            <constraint firstItem="bMG-nZ-oTQ" firstAttribute="bottom" secondItem="KOA-GT-myO" secondAttribute="bottom" id="EQf-Fp-4U6"/>
+                            <constraint firstItem="KOA-GT-myO" firstAttribute="top" secondItem="bMG-nZ-oTQ" secondAttribute="top" id="QOu-jg-51a"/>
+                            <constraint firstItem="bMG-nZ-oTQ" firstAttribute="trailing" secondItem="KOA-GT-myO" secondAttribute="trailing" id="ymi-G7-3dw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HWp-Ja-apo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1977" y="-55"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="198" height="80"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
